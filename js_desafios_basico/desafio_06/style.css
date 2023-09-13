@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.boxes {
+    display: flex;
+}
+
+.boxes .box {
+    background-color: rgb(181, 178, 178);
+    margin: 50px;
+    padding: 30px 60px;
+    width: 30%;
+}
+
+.boxes .box h1 {
+    margin-bottom: 20px;
+}
