@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        div {
+            margin: 20px 0;
+        }
+
+        #cidades {
+            display: none;
+        }
+
+        #cidades.visivel {
+            display: inline;
+        }
+
+        select.selectErro {
+            border: 1px solid red;
+        }
+
+        span.erro {
+            color: red;
+            font-style: italic;
+        }
+
+    </style>
+</head>
+<body>
+
+    <form action="salvarDados.html" id="formulario">
+        <div>
+            <label >
+                Cidades
+                <select id="estados">
+                    <option value="">-- Selecione --</option>
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Rio De Janeiro">Rio De Janeiro</option>
+                </select>
+                <span class="erro"></span>
+            </label>
+        </div>
+
+        <div>
+            <label >
+                Estados
+                <select id="cidades">
+                    <option value="">-- Selecione --</option>
+                </select>
+                <span class="erro"></span>
+            </label>
+        </div>
+
+        <button>Enviar</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
